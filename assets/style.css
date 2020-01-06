@@ -1,0 +1,56 @@
+*
+{
+    box-sizing: border-box;
+}
+html
+{
+    text-align: center;
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+h1
+{
+    font-size: large;
+}
+h4
+{
+    font-size: medium;
+}
+.align-left
+{
+    margin: 0;
+    width: 50%;
+    float: left;
+    text-align: left;
+}
+.align-right
+{
+    margin: 0;
+    width: 50%;
+    float: left;
+    text-align: right;
+}
+.container
+{
+    margin: 100px;
+    background-color: rgb(156, 198, 223);
+    padding: 45px;
+}
+#start-btn
+{
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 28px;
+    padding: 20px;
+    margin: 20px;
+
+}
+#top-bar
+{
+    margin: 0 auto;
+    padding: 10px 10px;
+    text-align: center;
+}
