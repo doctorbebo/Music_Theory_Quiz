@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>HighScore</title>
+    <link rel="stylesheet" href="assets/reset.css">
+    <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+    <div class="container">
+        <div id = "header">
+            <h3>Submit Your HighScore.</h3>
+        </div>
+        <div>
+            <input id = "input" type="text" placeholder="Initials here">
+            <span id = "user-score">Score: </span>
+            <span id="user-time">Time: </span>
+        </div>
+        <div>
+            <div class = "buttons" id = "handler">
+                <button id="submit-btn">Submit</button>
+                <button id = "clear-btn" >Clear</button>
+                <button id = "retake-btn" >Retake Test</button>
+            </div>
+
+            <ul id="highscore-list">
+            </ul>
+        </div>
+
+
+    </div>
+    
+    <script src="assets/questions.js"></script>
+    <script src="assets/highscore.js"></script>
+
+
+</body>
+</html>

@@ -13,12 +13,17 @@ h1
 {
     font-size: large;
 }
+h3
+{
+    font-size: 30px;
+}
 h4
 {
     font-size: medium;
 }
 .align-left
 {
+    font-size: 22px;
     margin: 0;
     width: 50%;
     float: left;
@@ -26,16 +31,74 @@ h4
 }
 .align-right
 {
+    font-size: 22px;
     margin: 0;
     width: 50%;
     float: left;
     text-align: right;
+}
+.answer
+{
+    text-align: left;
+    color: lightgray;
+    font-weight: bold;
+    width: 100px;   
+    padding: 5px; 
+    background-color: darkmagenta;
+    border-radius: 6px;
+    border: black solid 1px;
+    margin: 2px;
 }
 .container
 {
     margin: 100px;
     background-color: rgb(156, 198, 223);
     padding: 45px;
+    border: solid black 2px;
+}
+.highscore-entry
+{
+    font-weight: bold;
+    margin: 5px auto;
+    padding: 8px;
+    border-radius: 10px;
+    width: 300px;
+    background-color: palevioletred;
+}
+#answer-list
+{
+    margin: 0 auto;
+    width: 30%;
+    padding: 30px;
+}
+#clear-btn, #submit-btn, #retake-btn
+{
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 18px;
+    padding: 5px 18px;
+    margin: 5px;}
+#header
+{
+    margin: 10px;
+    font-size: 18px;
+}
+#highscore-list
+{
+    margin: 10px auto;
+}
+#input 
+{
+    margin: 9px;
+    width: 120px;
+    height: 32px;
+    font-size: 18px;
+}
+#question
+{
+    font-size: 30px;
 }
 #start-btn
 {
@@ -53,4 +116,13 @@ h4
     margin: 0 auto;
     padding: 10px 10px;
     text-align: center;
+}
+#user-input
+{
+    margin: 10px;
+}
+#user-score, #user-time
+{
+    margin: 5px;
+    font-size: 20px;
 }
