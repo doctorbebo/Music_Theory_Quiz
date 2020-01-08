@@ -19,7 +19,7 @@ h3
 }
 h4
 {
-    font-size: medium;
+    font-size: large;
 }
 .align-left
 {
@@ -42,8 +42,7 @@ h4
     text-align: left;
     color: lightgray;
     font-weight: bold;
-    width: 100px;   
-    padding: 5px; 
+    padding: 10px; 
     background-color: darkmagenta;
     border-radius: 6px;
     border: black solid 1px;

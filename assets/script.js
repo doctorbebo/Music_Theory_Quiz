@@ -68,7 +68,6 @@ answerList.addEventListener("click", function answerSelector(target)
 });
 
 function endQuiz(){
-    localStorage.setItem("score", score);
     localStorage.setItem("time", timer);
     window.location = "highscore.html";
 }
