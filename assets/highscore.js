@@ -65,6 +65,6 @@ handler.addEventListener("click", function handler(obj){
         localStorage.removeItem("highscores");
     }else if(obj.target.id === "retake-btn")
     {
-        window.location = "start.html";
+        window.location = "index.html";
     }
 })
