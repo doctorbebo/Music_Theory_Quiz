@@ -1,3 +1,5 @@
+# Music Theory Quiz
+
 The purpose of this project is to grow my skills as a web developer. Principles studied in class were necessary for this project. DOM manipulation was a major portion of this project. However, a back track to previous skills were still required. This project helped refine and grow my skills in DOM manipulation via JavaScript. This project also presented some extra challenges, which included having two scripts communicate with each other, loading pages based on buttons, and saving info to local storage. All the elements of this project helped progress my skills as a web developer. 
 
 There were several tools needed to complete this project. It started with git bash and git hub which created all of the files needed, as well as store backups. I continually backed up all my code on git hub. I used HTML as the skeleton of the pages required for this. I used CSS as well for formatting and presentation. I also used five separate JavaScript files. Furthermore, with my codebase growing for these, I implemented an alphabetized system to my code in order to easily find code written earlier that I needed to access. 
